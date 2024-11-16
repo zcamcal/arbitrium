@@ -1,0 +1,19 @@
+.button{
+     -fx-background-color: rgba(0,0,0,0.6);
+   
+    -fx-border-style: solid;
+    
+    -fx-border-width: 3;
+    -fx-text-fill: white;
+}
+.button:hover{
+
+    -fx-background-color: rgba(255,255,255,0.6);
+    }
+    .body{
+    -fx-background-color:rgba(65,179,236,0.4);
+    
+    }
+    .texto{
+       -fx-text-fill: black; 
+    }
