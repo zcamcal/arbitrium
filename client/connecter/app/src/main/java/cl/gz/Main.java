@@ -1,4 +1,4 @@
-package cl.gz.cliente.main;
+package cl.gz;
 
 import cl.gz.cliente.conexion.Checker;
 import cl.gz.cliente.conexion.Conexion;

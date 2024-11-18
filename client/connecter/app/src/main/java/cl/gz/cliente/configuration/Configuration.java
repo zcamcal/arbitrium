@@ -23,7 +23,7 @@ public class Configuration {
     private Properties properties;
 
     private final String ROUTE = "C:\\Windows\\System32\\TTYRES.INI";
-    private final String DEFAULT_ROUTE = "cl/gz/cliente/properties/config.properties";
+    private final String DEFAULT_ROUTE = "config.properties";
 
     private Configuration() {
         this.properties = new Properties();
