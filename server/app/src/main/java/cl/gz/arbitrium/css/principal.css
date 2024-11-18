@@ -1,0 +1,195 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+
+}
+.button{
+    /*    -fx-effect: dropshadow( gaussian, rgba(255, 255, 255, 0.8), 30, 0.5, 0.0, 0.0 );
+        
+        -fx-border-color: black;
+        -fx-background-radius: 5px;
+        -fx-border-radius: 5px;
+        -fx-background-color:RGB(255,255,255);*/
+    -fx-background-color: rgba(0,0,0,0.6);
+    -fx-background-radius: 20;
+    -fx-border-style: solid;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+    -fx-text-fill: white;
+}
+
+.button:hover{
+    /*    -fx-effect: dropshadow( gaussian, rgba(255, 255, 255, 0.8), 30, 0.5, 0.0, 0.0 );
+        
+        -fx-border-color: black;
+        -fx-background-radius: 5px;
+        -fx-border-radius: 5px;
+        -fx-background-color:RGB(255,255,255);*/
+    -fx-background-color: rgba(255,255,255,0.6);
+    /*    -fx-background-radius: 20;
+        -fx-border-style: solid;
+        -fx-border-radius: 20;
+        -fx-border-width: 3;
+        -fx-text-fill: white;*/
+}
+
+
+
+/*sacar el dropshadow*/
+.pc{
+    /*-fx-effect: dropshadow( gaussian, rgba(63, 191, 63, 0.8), 30, 0.5, 0.0, 0.0 );*/
+    /*     -fx-background-radius: 10px;
+        -fx-border-radius: 10px;
+        -fx-border-color: rgba(63, 191, 63);*/
+    -fx-background-color:white;
+    /* -fx-background-color: rgba(65,179,236,0.4);*/
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-border-width: 3;
+    -fx-border-style: solid;
+    /*    -fx-border-color: rgba(43,112,154,0.9);*/
+    /*    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 100, 0, 0, 0);*/
+}
+.header{
+    /*   -fx-background-color:RGB(255,255,255);
+       
+        -fx-effect: dropshadow( gaussian, rgba(63, 191, 63, 0.8), 30, 0.5, 0.0, 0.0 );*/
+    -fx-background-color: rgba(65,179,236,0.4);
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-border-width: 3;
+    -fx-border-style: solid;
+    /*    -fx-border-color: rgba(43,112,154,0.9);*/
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 100, 0, 0, 0);
+
+}
+.mensaje{
+    /*    -fx-border-color: black;
+        
+    
+        -fx-background-radius: 0px;
+        -fx-border-radius: 0px;*/
+    -fx-background-color: rgba(0,0,0,0.6);
+    -fx-background-radius: 20;
+    -fx-border-style: solid;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+    -fx-text-fill: white;
+}
+.siguiente{
+    -fx-background-color: rgba(0,0,0,0.6);
+    -fx-background-radius: 20;
+    -fx-border-style: solid;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+    -fx-text-fill: black;
+}
+.anterior{
+    -fx-background-color: rgba(0,0,0,0.6);
+    -fx-background-radius: 20;
+    -fx-border-style: solid;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+    -fx-text-fill: black;
+}
+.body{
+    -fx-background-color:rgba(255,255,255,1);
+    /*-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 100, 0, 0, 0);*/
+
+}
+.panel_izquierdo{
+    /*    -fx-background-color:RGB(255,255,255);*/
+    /*-fx-background-color: rgba(65,179,236,0.4);
+        -fx-background-radius: 0;
+        -fx-border-radius: 0;
+        -fx-border-width: 3;
+        -fx-border-style: solid;
+        -fx-border-color: rgba(43,112,154,0.9);
+        -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 100, 0, 0, 0);*/
+    -fx-background-color: linear-gradient(to right, #e2e2e2 0%, #ffffff);
+}
+.panel_derecho{
+    /*    -fx-background-color:RGB(255,255,255);*/
+    /*-fx-background-color: rgba(65,179,236,0.4);*/
+    /*    -fx-background-radius: 0;
+        -fx-border-radius: 0;
+        -fx-border-width: 3;
+        -fx-border-style: solid;
+        -fx-border-color: rgba(43,112,154,0.9);*/
+    /*    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 100, 0, 0, 0);*/
+    -fx-background-color: linear-gradient(to left, #e2e2e2 0%, #ffffff);
+}
+.reserva{
+    /*    -fx-border-color: black;
+        -fx-background-radius: 5px;
+        -fx-border-radius: 5px;
+        -fx-background-color:RGB(255,255,255);*/
+    -fx-background-color: rgba(0,0,0,0.6);
+    -fx-background-radius: 20;
+    -fx-border-style: solid;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+    -fx-text-fill: white;
+
+}
+.puntoRojo{
+    -fx-border-color: rgba(229, 50, 53);
+    -fx-background-color:RGB(290,50,53);
+}
+.puntoVerde{
+    -fx-border-color: rgba(63, 191, 63);
+    -fx-background-color:RGB(63,191,63);
+}
+.puntoAmarillo{
+    -fx-border-color: rgba(255, 255, 35);
+    -fx-background-color:RGB(255,255,35);
+}
+.puntoAzul{
+    -fx-border-color: rgba(35, 35, 255);
+    -fx-background-color:RGB(35,35,255);
+}
+
+.checkBox{
+   
+}
+
+.check-box .box {
+
+-fx-background-color: white;
+-fx-border-color:grey;
+-fx-border-radius:3px; 
+
+}
+
+.check-box:selected .mark {
+
+-fx-background-color: white;
+
+}
+
+.check-box:selected .box {
+
+-fx-background-color: #28a3f4;
+}
+
+.btnCliente {
+    -fx-background-color: white;
+    -fx-border-radius: 0px;
+    -fx-border-radius: 0px 0px 20px 20px;
+    -fx-border-width: 3;
+    -fx-border-style: solid;
+    -fx-text-fill: black;
+    -fx-background-radius: 20px;
+}
+
+.btnCliente:hover {
+    -fx-background-color: #e2e2e2;
+    -fx-border-radius: 0px;
+    -fx-border-radius: 0px 0px 20px 20px;
+    -fx-text-fill: black;
+    -fx-background-radius: 0px;
+    -fx-background-radius: 0px 0px 20px 20px;
+}

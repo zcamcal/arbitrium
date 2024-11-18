@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1360.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cl.gz.controller.controller.ReservasController">
+   <stylesheets>
+        <URL value="@/cl/gz/arbitrium/css/reservas.css" />
+    </stylesheets>
+    <top>
+      <HBox prefHeight="100.0" prefWidth="1360.0" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+      <HBox prefHeight="668.0" prefWidth="1360.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="tablaReservas" prefHeight="668.0" prefWidth="1360.0">
+              <columns>
+                <TableColumn fx:id="computador" prefWidth="180.0" resizable="false" text="Computador" />
+                <TableColumn minWidth="0.0" prefWidth="0.0" resizable="false" text="C2" />
+                  <TableColumn prefWidth="60.0" resizable="false" text="8:00">
+                     <columns>
+                        <TableColumn prefWidth="20.0" resizable="false" text="30" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="45" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="60" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn resizable="false" text="9:00">
+                     <columns>
+                        <TableColumn prefWidth="20.0" resizable="false" text="15" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="30" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="45" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="60" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="249.0" resizable="false" text="10:00">
+                     <columns>
+                        <TableColumn prefWidth="20.0" resizable="false" text="15" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="30" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="45" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="60" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="249.0" resizable="false" text="11:00">
+                     <columns>
+                        <TableColumn prefWidth="20.0" resizable="false" text="15" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="30" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="45" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="60" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="249.0" resizable="false" text="12:00">
+                     <columns>
+                        <TableColumn prefWidth="20.0" resizable="false" text="15" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="30" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="45" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="60" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="249.0" resizable="false" text="13:00">
+                     <columns>
+                        <TableColumn prefWidth="20.0" resizable="false" text="15" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="30" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="45" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="60" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="249.0" resizable="false" text="14:00">
+                     <columns>
+                        <TableColumn prefWidth="20.0" resizable="false" text="15" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="30" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="45" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="60" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="249.0" resizable="false" text="15:00">
+                     <columns>
+                        <TableColumn prefWidth="20.0" resizable="false" text="15" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="30" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="45" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="60" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="249.0" resizable="false" text="16:00">
+                     <columns>
+                        <TableColumn prefWidth="20.0" resizable="false" text="15" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="30" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="45" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="60" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="249.0" resizable="false" text="17:00">
+                     <columns>
+                        <TableColumn prefWidth="20.0" resizable="false" text="15" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="30" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="45" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="60" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="249.0" resizable="false" text="18:00">
+                     <columns>
+                        <TableColumn prefWidth="20.0" resizable="false" text="15" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="30" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="45" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="60" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="249.0" resizable="false" text="19:0">
+                     <columns>
+                        <TableColumn prefWidth="20.0" resizable="false" text="15" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="30" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="45" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="60" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="249.0" resizable="false" text="20:00">
+                     <columns>
+                        <TableColumn prefWidth="20.0" resizable="false" text="15" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="30" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="45" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="60" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="249.0" resizable="false" text="21:00">
+                     <columns>
+                        <TableColumn prefWidth="20.0" resizable="false" text="15" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="30" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="45" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="60" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="249.0" resizable="false" text="22:00">
+                     <columns>
+                        <TableColumn prefWidth="20.0" resizable="false" text="15" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="30" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="45" />
+                        <TableColumn prefWidth="20.0" resizable="false" text="60" />
+                     </columns>
+                  </TableColumn>
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </children>
+      </HBox>
+   </center>
+</BorderPane>

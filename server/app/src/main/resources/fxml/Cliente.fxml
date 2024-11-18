@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="colorEstado" alignment="BOTTOM_LEFT" prefHeight="250.0" prefWidth="273.0" styleClass="pc" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cl.gz.controller.controller.ClienteController">
+      <children>
+      <HBox alignment="CENTER" prefHeight="40.0" prefWidth="273.0" VBox.vgrow="ALWAYS">
+         <children>
+            <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0">
+               <children>
+                          <CheckBox fx:id="chkSeleccionado" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="273.0" styleClass="checkBox" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </CheckBox>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+          <HBox alignment="TOP_CENTER" prefHeight="150.0" prefWidth="273.0" VBox.vgrow="ALWAYS">
+         <children>
+            <ImageView fx:id="screenShot" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#btnScreenShotViewEvent" pickOnBounds="true" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+          <HBox alignment="CENTER" prefHeight="60.0" prefWidth="273.0" VBox.vgrow="ALWAYS">
+              <children>
+                  <VBox alignment="BOTTOM_CENTER" prefHeight="60.0" prefWidth="273.0" styleClass="estado" HBox.hgrow="ALWAYS">
+                      <children>
+                          <Label text="usuario" />
+                  <HBox alignment="BOTTOM_CENTER" prefHeight="40.0" prefWidth="273.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <AnchorPane prefHeight="40.0" prefWidth="273.0" HBox.hgrow="ALWAYS">
+                           <children>
+                                      <Button fx:id="btnBloquear" mnemonicParsing="false" onMouseClicked="#btnBloquearEvent" prefHeight="40.0" prefWidth="273.0" styleClass="btnCliente" text="BLOQUEAR" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                      </children>
+                  </VBox>
+              </children>
+          </HBox>
+      </children>
+  </VBox>
