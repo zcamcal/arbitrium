@@ -36,8 +36,6 @@ func main() {
 }
 
 func handleConnection(connection net.Conn) {
-	defer connection.Close()
-
 	message, err := bufio.NewReader(connection).ReadString('\n')
 	if err != nil {
 		logger.Error("cant read message from slave", slog.Any("err", err))
